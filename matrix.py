@@ -1,10 +1,10 @@
 def get_matrix(a, b, val):
-    m = []
+    matrix = []
     for i in range(a):
-        m.append([])
+        matrix.append([])
         for j in range(b):
-            m[i].append(val)
-    return(m)
+            matrix[i].append(val)
+    return (matrix)
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
